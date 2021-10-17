@@ -1,0 +1,7 @@
+tasks:
+  - init: "echo 'Starting Task'"
+    command: make run
+ports:
+  - port: 5005
+  - port: 5006
+  - port: 5007
